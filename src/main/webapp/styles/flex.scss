@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Rubik&display=swap');
+
+// Nord Color Theme
+// Polar Night -> Background
+$NordBackground: #2E3440; // Default  dark background
+$NordSecondBG: #3B4252; // Comments, shadows and inconspicuous details
+$NordThirdBG: #434C5E; // Colorize the current active text and/or line
+$NordFourthBG: #4C566A; // Markings on the screen and not so relevant details
+
+// Snow Storm -> Text colors and Base UI
+$NordSnowStorm: #D8DEE9; // UI elements
+$NordSecondSnowStorm: #E5E9F0; // State animations
+$NordThirdSnowStorm: #ECEFF4; // Important details
+
+// Frost -> Primary UI Components and Text Highlight
+$NordFrost: #8FBCBB; // More important stuff
+$NordSecondFrost: #88C0D0; // Primary UI Elements
+$NordThirdFrost: #81A1C1; // Secondary UI Elements
+$NordFourthFrost: #5E81AC; // Tertiary UI Elements
+
+// Aurora -> Details, explanations on each item
+
+$NordRed: #BF616A; // Render errors
+$NordOrange:#D08770; // Render dangerous stuff
+$NordYellow:#EBCB8B; // Render warnings
+$NordGreen:#A3BE8C; // Render success
+$NordLilac:#B48EAD; // Render uncommon stuff
+
+$handWrittenFont: 'Kaushan Script', cursive;
+$defaultFont: 'Rubik', sans-serif;
+
+.flex-container {
+  display: flex center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: space-between;
+  
+}
+
+.textInput {
+  display: inline;
+}
+
+.Structure {
+  color: $NordSnowStorm;
+}
+
+#link:link {
+  color: $NordSecondFrost;
+}
+
+#link:visited {
+  color: $NordThirdFrost;
+}
+
+#link:hover {
+  color: $NordLilac; 
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $handWrittenFont;
+  font-size: 55px;
+  color: $NordSnowStorm;
+}
+
+body {
+  text-align: center;
+  background-color: $NordBackground;
+
+  font-family: $defaultFont;
+  color: $NordSnowStorm;
+}
