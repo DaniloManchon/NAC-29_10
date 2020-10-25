@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&family=Kaushan+Script&family=Rubik&display=swap');
 
 // Nord Color Theme
 // Polar Night -> Background
@@ -28,6 +28,7 @@ $NordLilac:#B48EAD; // Render uncommon stuff
 
 $handWrittenFont: 'Kaushan Script', cursive;
 $defaultFont: 'Rubik', sans-serif;
+$ligaturesFont: 'Fira Code', monospace;
 
 .flex-container {
   display: flex center;
