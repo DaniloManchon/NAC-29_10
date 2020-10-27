@@ -26,7 +26,7 @@ To change this template use File | Settings | File Templates.
         <hr>
       </div> <!-- Fim da div Header -->
       <div class="Stucture">
-        <% session.invalidate %>
+        <% session.invalidate(); %>
         Seu cadastro foi concluido com sucesso!
           <div class="goBack">
             <br />

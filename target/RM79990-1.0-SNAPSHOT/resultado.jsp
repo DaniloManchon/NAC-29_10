@@ -31,14 +31,14 @@ Time: 11:01
         ResultadoDAO dao = new ResultadoDAO();
         int homens = dao.totalMasculino();
         int mulheres = dao.totalFeminino();
-        int alunos = dao.totalaluno();
+        int alunos = dao.totalAluno();
         int empregados = dao.totalEmpregados();
         out.print("<h3 id="dao">Total de homens --> " + "</h3>");
         out.print("<h3 id="dao">Total de mulheres --> " + "</h3>");
         out.print("<h3 id="dao">Total de alunos --> " + "</h3>");
         out.print("<h3 id="dao">Total de empregados --> " + "</h3>");
 
-        session.invalidade()
+        session.invalidate();
         %>
         <div class="goBack">
           <br />

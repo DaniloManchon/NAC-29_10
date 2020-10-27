@@ -19,7 +19,7 @@ To change this template use File | Settings | File Templates.
 </head>
 
 <body>
-  <% session.invalidate() %>
+  <% session.invalidate(); %>
   <div class="flex-container">
     <div class="Main">
       <div class="Header">
