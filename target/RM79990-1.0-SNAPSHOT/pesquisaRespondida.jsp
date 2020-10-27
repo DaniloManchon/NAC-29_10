@@ -1,6 +1,6 @@
 <%--
 Created by IntelliJ IDEA.
-User: danil
+User: danilo
 Date: 17/10/2020
 Time: 15:25
 To change this template use File | Settings | File Templates.
@@ -19,7 +19,9 @@ To change this template use File | Settings | File Templates.
 </head>
 
 <body>
-  <% session.invalidate %>
+  <%
+    session.invalidate();
+  %>
     <div class="flex-container">
     <div class="Main">
       <div class="Header">

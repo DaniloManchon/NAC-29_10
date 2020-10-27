@@ -6,8 +6,8 @@ import java.sql.SQLException;
 public class ConexaoDB {
     private final String driver = "oracle.jdbc.driver.OracleDriver";
     private final String caminho = "jdbc:oracle:thin:@oracle.fiap.com.br:1521:orcl";
-    private final String login = "";
-    private final String senha = "";
+    private final String login = "RM79990";
+    private final String senha = "030399";
     private Connection conexao;
 
     public Connection conectar(){

@@ -1,7 +1,7 @@
 <%@ page import="dao.ResultadoDAO" %>
 <%--
 Created by IntelliJ IDEA.
-User: danil
+User: danilo
 Date: 17/10/2020
 Time: 11:01
 --%>
@@ -33,10 +33,10 @@ Time: 11:01
         int mulheres = dao.totalFeminino();
         int alunos = dao.totalAluno();
         int empregados = dao.totalEmpregados();
-        out.print("<h3 id="dao">Total de homens --> " + "</h3>");
-        out.print("<h3 id="dao">Total de mulheres --> " + "</h3>");
-        out.print("<h3 id="dao">Total de alunos --> " + "</h3>");
-        out.print("<h3 id="dao">Total de empregados --> " + "</h3>");
+        out.print("<h3 id='result'>Total de homens --> " + homens + "</h3>");
+        out.print("<h3 id='result'>Total de mulheres --> " + mulheres + "</h3>");
+        out.print("<h3 id='result'>Total de alunos --> " + alunos + "</h3>");
+        out.print("<h3 id='result'>Total de empregados --> " + empregados + "</h3>");
 
         session.invalidate();
         %>

@@ -1,42 +1,68 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
-    <title>Formulário Cadastro de Usuário</title>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie-edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="styles/flex.css">
+
+  <title>Formulário Cadastro de Usuário</title>
 </head>
+
 <body>
-<h1>Cadastro de Usuário</h1>
-<hr>
-<form action="cadastro" method="POST">
-    <div>
-        Matrícula:
-        <br>
-        <input type="text" name="matricula">
-        <br>
-        Nome:
-        <br>
-        <input type="text" name="nome">
-        <br>
-        senha:
-        <br>
-        <input type="password" name="senha">
-        <br>
-        <input type="radio" id="fem" name="genero" value="fem" checked>
-        <label for="fem">Feminino</label>
-        <br>
-        <input type="radio" id="masc" name="genero" value="masc">
-        <label for="masc">Masculino</label>
-        <br>
-        <input type="radio" id="aluno" name="role" value="aluno" checked>
-        <label for="aluno">Aluno</label>
-        <br>
-        <input type="radio" id="professor" name="role" value="professor">
-        <label for="professor">Professor</label>
-        <br>
-        <input type="submit" name= "botao" value="Cadastrar">
-    </div>
-    <div>
-        <a href="index.html">Voltar</a>
-    </div>
-</form>
+  <div class="flex-container">
+    <div class="Main">
+      <div class="Header">
+        <h1>Cadastro de Usuário</h1>
+        <hr>
+      </div> <!-- Fim da div Header -->
+      <div class="Structure">
+        <form action="cadastro" method="POST">
+          <div class="textInput">
+
+            Matrícula: <br />
+            <input type="text" name="matricula"> <br />
+
+            Nome: <br />
+            <input type="text" name="nome"> <br />
+
+            Senha: <br />
+            <input type="password" name="senha"> <br />
+
+          </div> <!-- Fim da div textInput -->
+          <div class="genderInput">
+
+            <br />
+
+            <input type="radio" id="fem" name="genero" value="fem" checked> <label for="fem">Feminino</label>
+
+            <input type="radio" id="masc" name="genero" value="masc"> <label for="masc">Masculino</label> <br />
+
+          </div> <!-- Fim da div genderInput -->
+          <div class="roleInput">
+            <br />
+
+            <input type="radio" id="aluno" name="role" value="aluno" checked>
+            <label for="aluno">Aluno</label>
+            <input type="radio" id="professor" name="role" value="professor">
+            <label for="professor">Professor</label>
+
+          </div> <!-- Fim da div roleInput -->
+          <div class="Send">
+
+            <br />
+            <input type="submit" name="botao" value="Cadastrar">
+
+          </div> <!-- Fim da div Send -->
+          <div class="goBack">
+            <br />
+            <a id="link" href="index.html">Voltar</a>
+          </div> <!-- Fim da div goBack -->
+        </form>
+      </div> <!-- Fim da div Structure -->
+    </div> <!-- Fim da div Main -->
+  </div> <!-- Fim da div Flex-Container-->
 </body>
+
 </html>

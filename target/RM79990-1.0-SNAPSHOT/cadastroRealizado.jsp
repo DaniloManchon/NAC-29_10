@@ -1,6 +1,6 @@
 <%--
 Created by IntelliJ IDEA.
-User: danil
+User: danilo
 Date: 17/10/2020
 Time: 17:57
 To change this template use File | Settings | File Templates.
@@ -26,7 +26,9 @@ To change this template use File | Settings | File Templates.
         <hr>
       </div> <!-- Fim da div Header -->
       <div class="Stucture">
-        <% session.invalidate(); %>
+        <%
+          session.invalidate();
+        %>
         Seu cadastro foi concluido com sucesso!
           <div class="goBack">
             <br />

@@ -1,29 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset=”ISO-8859-1”>
-    <title>Formulario Login</title>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie-edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="./styles/flex.css">
+
+  <title>Formulário de Login</title>
 </head>
+
 <body>
-<h1>Login</h1>
-<hr>
-<form action="login" method="POST">
-    <div>
-        Matr&iacute;cula: <!--Parece que não, mas está escrito Matrícula-->
-        <br>
-        <input type="text" name="matricula">
-        <br>
-        <br>
-        Senha:
-        <br>
-        <input type="password" name="senha">
-        <br>
-        <br>
-        <input type="submit" name= "botao" value="Logar">
-        <br>
-        <br>
-        <input type="submit" name= "botao" value="Ainda n&atilde;o sou cadastrado"> <!--precisei quebrar a palvra não-->
-    </div>
-</form>
+  <div class="flex-container">
+    <div class="Main">
+      <div class="Header">
+        <h1>Formulario Login</h1>
+        <hr>
+      </div> <!-- Fim da div Header -->
+      <div class="Stucture">
+        <form action="login" method="POST">
+          <div class="textInput">
+
+            Matrícula: <br />
+            <input type="text" name="matricula"> <br />
+            Senha: <br />
+            <input type="password" name="senha"> <br />
+
+          </div> <!-- Fim da div textInput -->
+          <div class="Send">
+
+            <br />
+            <input type="submit" name="botao" value="Logar">
+            <br />
+            <input type="submit" name="botao" value="Ainda não sou cadastrado">
+
+          </div> <!-- Fim da div Send -->
+      </div> <!-- Fim da div Structure -->
+    </div> <!-- Fim da div Main -->
+  </div> <!-- Fim da div Flex-Container -->
+  </form>
 </body>
+
 </html>
