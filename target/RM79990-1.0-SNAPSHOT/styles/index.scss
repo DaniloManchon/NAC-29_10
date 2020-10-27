@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Rubik&display=swap');
+
+$pink: #FF6188;
+$orange: #FC9867;
+$yellow: #FFD886;
+$green: #A9DC76;
+$cyan: #78DCE8;
+$purple: #AB9DF2;
+
+$backgroundColor: #2C292D;
+$fontColor: #D3E2E5;
+
+$handWrittenFont: 'Kaushan Script', cursive;
+$defaultFont: 'Rubik', sans-serif;
+
+h1, h2, h3, h4, h5, h6{
+  font-family: $handWrittenFont;
+  font-size: 55px;
+  color: $fontColor;
+}
+
+a:link{
+  color: $pink;
+}
+
+a:visited{
+  color: $yellow;
+}
+
+a:active, a:hover{
+  color: $green;
+}
+
+input[type=text], input[type=password] {
+  width: 25%;
+  padding: 2px;
+  margin: 5px;
+  box-sizing: border-box;
+  border: $backgroundColor;
+}
+
+
+input[type=text]:focus, input[type=password]:focus {
+  border: 2px solid $orange;
+  outline: none;
+}
+
+input[type=submit] {
+  cursor: pointer;
+
+  // background-color: $purple;
+  // color: $fontColor;
+  padding: 4px;
+  margin: 4px;
+  // border: $backgroundColor;
+  background-image: linear-gradient(135deg,rgba(120,220,232,0.2),rgba(120,220,232,0.8));
+}
+
+body {
+  background-color: $backgroundColor;
+
+  text-align: center;
+
+  font-family: $defaultFont;
+  color: $fontColor;
+}
