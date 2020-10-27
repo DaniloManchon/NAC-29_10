@@ -1,49 +1,33 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta http-equiv="x-ua-compatible" content="ie-edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" href="./styles/flex.css">
-
-  <title>Formulário de Pesquisa</title>
+    <title>Formulário Pesquisa</title>
 </head>
-
 <body>
-  <div class="flex-container">
-    <div class="Main">
-      <div class="Header">
-        <h1>Pesquisa</h1>
-        <hr>
-      </div> <!-- Fim da div Header -->
-      <div class="Stucture">
-        <form action="pesquisa" method="POST">
-          Está empregado? <br />
-          <input type="radio" id="sim" name="empregado" value="sim" checked>
-          <label for="sim">Sim</label>
-          <input type="radio" id="nao" name="empregado" value="nao">
-          <label for="nao">Não</label> <br />
-          <br />
-          Está satisfeito com o salário? <br />
-          <input type="radio" id="sim" name="salario" value="sim">
-          <label for="sim">Sim</label>
-          <input type="radio" id="nao" name="salario" value="nao">
-          <label for="nao">Não</label>
-          <div class="Send">
-
-            <br />
-            <input type="submit" name="botao" value="Cadastrar">
-
-          </div> <!-- Fim da div Send -->
-          <div class="goBack">
-            <br />
-            <a id="link" href="index.html">Voltar</a>
-          </div> <!-- Fim da div goBack -->
-        </form>
-      </div> <!-- Fim da div Structure -->
-    </div> <!-- Fim da div Main -->
-  </div> <!-- Fim da div Flex-Container -->
+<h1>Pesquisa</h1>
+<hr>
+<form action="pesquisa" method="POST">
+    <div>
+        <h3>Está empregado?</h3>
+        <input type="radio" id="sim" name="empregado" value="sim" checked>
+        <label for="sim">Sim</label>
+        <br>
+        <input type="radio" id="nao" name="empregado" value="nao">
+        <label for="nao">Não</label>
+        <br>
+        <h3>Está satisfeito com o salário?</h3>
+        <input type="radio" id="sim" name="salario" value="sim">
+        <label for="sim">Sim</label>
+        <br>
+        <input type="radio" id="nao" name="salario" value="nao">
+        <label for="nao">Não</label>
+        <br>
+        <br>
+        <input type="submit" name= "botao" value="Enviar">
+    </div>
+    <div>
+        <a href="index.html">Voltar</a>
+    </div>
+</form>
 </body>
-
 </html>
