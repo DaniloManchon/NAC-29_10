@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Rubik&display=swap");
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Kaushan Script", cursive;
+  font-size: 55px;
+  color: #D3E2E5;
+}
+
+a:link {
+  color: #FF6188;
+}
+
+a:visited {
+  color: #FFD886;
+}
+
+a:active, a:hover {
+  color: #A9DC76;
+}
+
+input[type=text], input[type=password] {
+  width: 25%;
+  padding: 2px;
+  margin: 5px;
+  box-sizing: border-box;
+  border: #2C292D;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  border: 2px solid #FC9867;
+  outline: none;
+}
+
+input[type=submit] {
+  cursor: pointer;
+  padding: 4px;
+  margin: 4px;
+  background-image: linear-gradient(135deg, rgba(120, 220, 232, 0.2), rgba(120, 220, 232, 0.8));
+}
+
+body {
+  background-color: #2C292D;
+  text-align: center;
+  font-family: "Rubik", sans-serif;
+  color: #D3E2E5;
+}
+
+/*# sourceMappingURL=index.css.map */

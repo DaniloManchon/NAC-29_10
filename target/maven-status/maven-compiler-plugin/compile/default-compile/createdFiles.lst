@@ -1,0 +1,9 @@
+dao/ResultadoDAO.class
+conexao/ConexaoDB.class
+model/Pesquisa.class
+model/Usuario.class
+dao/PesquisaDAO.class
+controller/LoginServlet.class
+controller/PesquisaServlet.class
+controller/CadastroServlet.class
+dao/UsuarioDAO.class
