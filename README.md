@@ -10,3 +10,5 @@ Avaliação FIAP
 
 
 O OJDBC está sendo adicionado pelo POM.XML
+
+![Diagrama de Classe](NAC-29_10.png)
